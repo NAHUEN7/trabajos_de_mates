@@ -1,4 +1,8 @@
-x = float(input("part: ")) * 100 / float(input("total: "))
-print(x, "%")
+def percentuale(pt, tot):
+    risultato = pt * 100 / tot
+    return risultato
 
-print("hola mundo")
+
+prt = float(input("parte: "))
+tota = float(input("total: "))
+print(percentuale(prt, tota), "%")
